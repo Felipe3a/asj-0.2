@@ -562,6 +562,12 @@
     margin-bottom: 100px;
   }
 
+
+
+  
+
+
+
   .card-image {
     position: relative;
     overflow: visible; /* garante que a sombra apareça fora do card */
@@ -575,6 +581,8 @@
     border-radius: 12px;
     box-shadow: -30px 20px 20px rgba(151, 68, 211, 0.432); /* sombra suave para baixo e esquerda */
   }
+
+
   
   
 .card-content {
@@ -607,4 +615,19 @@
 
 
 
-  
+/* Para telas pequenas */
+@media (max-width: 768px) {
+  .card-horizontal {
+    flex-direction: column; /* muda para coluna */
+    text-align: center;     /* centraliza texto */
+  }
+
+  .card-image img {
+    max-width: 100%;  /* imagem usa largura total do container */
+    height: auto;
+  }
+
+  .card-content {
+    padding: 10px 15px;
+  }
+}
