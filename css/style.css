@@ -17,7 +17,7 @@
   .content { float:left; width:92%; margin:0 4%; padding: 20px 0; }
   
   /*HEADER*/
-  .main_header          { background:white; z-index:1; padding: 5px; }
+  .main_header          { background:rgba(5, 5, 5, 0.99); z-index:1; padding: 5px; }
   .main_header .content { float:left; padding:0px 0; color: #5a575c;}
   .main_header_nav_item  {color: #3b9ade;}
   .main_header.fixed { display:block; position:fixed; z-index:99; }
@@ -486,7 +486,7 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    background-image: url('/smart-city-security-background-digital-transformation-digital-remix.jpg'); background-repeat: no-repeat;
+    background-image: url('/uploads/capa/smart-city-security-background-digital-transformation-digital-remix.jpg'); background-repeat: no-repeat;
     background-size: cover; /* Cobre toda a área da seção */
     background-position: center; /* Centraliza a imagem de fundo */ 
 }
