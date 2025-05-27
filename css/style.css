@@ -617,9 +617,17 @@
 
 /* Para telas pequenas */
 @media (max-width: 768px) {
+
+    .card-horizontal {
+        flex-direction: column; /* Muda para coluna */
+        padding: 20px; /* Ajusta o padding */
+    }
   .card-horizontal {
     flex-direction: column; /* muda para coluna */
-    text-align: center;     /* centraliza texto */
+   align-items: center;
+    text-align: center;
+    justify-content: center;
+  }
   }
 
   .card-image img {
@@ -628,6 +636,15 @@
   }
 
   .card-content {
-    padding: 10px 15px;
+     font-size: 1.5rem; /* Tamanho do título reduzido */
+    padding: 0;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 0%;
+    margin-top: 0%;
   }
-}
+    .card-content h3 {
+        font-size: 1.5rem; /* Tamanho do título reduzido */
+    justify-content: center;
+    }
