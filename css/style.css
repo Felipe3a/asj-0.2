@@ -442,10 +442,10 @@
   }
   
   
-  .section-avaliacoes {
-      background-color: black; /* Define o fundo preto para o <div> */
-     width: 100%; /* Define a largura do <div> como 100% */
-      height: 100%; /* Define a altura do <div> como 100% */
+  /*.section-avaliacoes {
+      background-color: black; /* Define o fundo preto para o <div> 
+     width: 100%;  Define a largura do <div> como 100% 
+      height: 100%;  Define a altura do <div> como 100% 
       
       
   }
@@ -460,7 +460,7 @@
       background-repeat: no-repeat;
       background-position: center;
      
-  }
+  }*/
   
   @keyframes fadeIn {
       from {
@@ -628,7 +628,7 @@
     text-align: center;
     justify-content: center;
   }
-  }
+  
 
   .card-image img {
     max-width: 100%;  /* imagem usa largura total do container */
@@ -647,4 +647,14 @@
     .card-content h3 {
         font-size: 1.5rem; /* Tamanho do título reduzido */
     justify-content: center;
+    text-align: center;
     }
+
+    #sobre{
+         font-size: 0.7rem; /* Tamanho do título reduzido */ 
+    justify-content: center;
+       
+         
+    }
+
+}
