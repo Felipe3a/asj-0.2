@@ -17,7 +17,7 @@
   .content { float:left; width:92%; margin:0 4%; padding: 20px 0; }
   
   /*HEADER*/
-  .main_header          { background:rgba(5, 5, 5, 0.99); z-index:1; padding: 5px; }
+  .main_header          {  background: url('/fundo-azul-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg');z-index:1; padding: 5px;}
   .main_header .content { float:left; padding:0px 0; color: #5a575c;}
   .main_header_nav_item  {color: #3b9ade;}
   .main_header.fixed { display:block; position:fixed; z-index:99; }
@@ -246,7 +246,7 @@
    
   }
   /*FOOTER*/
-  .main_footer { background-color:black; color:#fff; font-size:0.875em; }
+  .main_footer { background: url('/fundo-azul-gradiente-de-luxo-abstrato-liso-azul-escuro-com-vinheta-preta-studio-banner.jpg');   color:#fff; font-size:0.875em; }
   
   .main_footer .content {  
       display: flex;   
@@ -658,3 +658,66 @@
     }
 
 }
+
+
+
+
+
+
+
+
+
+
+/*Começa o Responsivo*/
+
+/*480PX BREAKPOINT*/
+/*480 dividido por 16 = 30em*/
+@media (min-width:30em){
+
+.boxBannerTopo { padding:1em 0; }
+
+}
+
+/*600PX BREAKPOINT*/
+/*600 dividido por 16 = 37,5em*/
+@media (min-width:37em){
+
+
+} 
+
+/*768PX BREAKPOINT*/
+/*768 dividido por 16 = 48em*/
+@media (min-width:48em){
+
+
+} 
+
+/*960PX BREAKPOINT*/
+/*960 dividido por 16 = 60em*/
+@media (min-width:60em){
+
+
+}
+
+/*1280PX BREAKPOINT*/
+/*1280 dividido por 16 = 80em*/
+@media (min-width:80em){
+
+ 
+}
+
+/*1366PX BREAKPOINT*/
+/*1366 dividido por 16 = 85,375em*/
+@media (min-width:85em){
+
+ .content  { width:80%; margin:0 10%; }
+
+}
+
+/*1600PX BREAKPOINT*/
+/*1600 dividido por 16 = 100em*/
+@media (min-width:100em){
+
+
+}
+/*Fecha o Responsivo*/
